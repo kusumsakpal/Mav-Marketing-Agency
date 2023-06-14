@@ -32,7 +32,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Send the email
         if (mail($to, $subject, $body, $headers)) {
             // Email sent successfully
-            header("Location: thankyou.html");
+            header("Location:index.html");
             exit;
         } else {
             // Failed to send the email

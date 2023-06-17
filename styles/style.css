@@ -117,6 +117,7 @@ a{
     display: flex;
     justify-content: center;
     height: 90vh;
+    width: 100%;
 }
 
 .hero-section img{

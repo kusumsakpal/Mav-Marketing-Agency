@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteRule ^About$ index.html [L]
+RewriteRule ^Pricniples$ principles.html [L]
+RewriteRule ^Careers$ careers.html [L]
